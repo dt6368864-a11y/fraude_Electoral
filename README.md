@@ -36,24 +36,3 @@ Escanea el código QR con la app **Expo Go** en tu celular.
 Para correr los tests:
 
 npm test
-
----
-
-## 🔐 Seguridad
-
-- Las credenciales de Supabase **nunca se suben al repositorio**
-- El archivo `.env` está incluido en `.gitignore`
-- Usa el archivo `.env.example` como plantilla para configurar tu entorno local
-
----
-
-## 🧠 Algoritmo de auditoría
-
-El núcleo de la app está en `src/utils/e14Auditor.js`. La lógica es simple pero efectiva:
-
-```
-total_votos = candidato_a + candidato_b + votos_blancos + votos_nulos
-si total_votos > capacidad_mesa → mesa FRAUDULENTA
-```
-
----
