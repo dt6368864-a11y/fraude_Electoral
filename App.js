@@ -49,7 +49,7 @@ export default function App() {
         />
       )}
       <TouchableOpacity style={styles.panicButton} onPress={() => setAuditMode(true)}>
-        <Text style={styles.panicButtonText}>[ mirar inconsistencias ]</Text>
+        <Text style={styles.panicButtonText}>[ RUN FORENSIC AUDIT ]</Text>
       </TouchableOpacity>
     </SafeAreaView>
   );
